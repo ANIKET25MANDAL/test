@@ -48,4 +48,5 @@ console.error('An error has occured in your scrren');
 
 console.warn("Please check your email");
 
-prompt("Enter your name please");
+let name = prompt("Enter your name please");
+console.log(name);
