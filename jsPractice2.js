@@ -39,12 +39,24 @@ switch (quarter) {
 
 /* Qs4. A string is a golden string if it starts with the character ‘A’ or ‘a’ and has a total length greater than 5.
 For a given string print if it is golden or not.  */
-let str = 'hNIKET';
-if ((str[0] == 'a' || 'A') && (str.length > 5)) {
+let str = 'ANIKET';
+if ((str[0] == 'a' || str[0] == 'A') && (str.length > 5)) {
     console.log("golden string");
 }
 else {
     console.log("not a golden string");
+}
+
+
+// Qs5. Write a program to find the largest of 3 numbers..
+
+let a = 576888, b = 87888, c = 56789977;
+if (a > b && a > c) {
+    console.log(a);
+} else if (b > c) {
+    console.log(b);
+} else {
+    console.log(c);
 }
 
 
