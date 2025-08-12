@@ -39,3 +39,13 @@ if (chr[0] == chr[0].toLowerCase()) {
 // Qs5. Write a JavaScript program to strip leading and trailing spaces from a string.
 let str1 = "    I went to libaray every day   ";
 console.log(str1.trim());
+
+
+// Qs6. Write a JavaScript program to check if an element exists in an array or not.
+
+let arr2 = [4, 69, 56];
+if (arr2[0] === undefined) {
+    console.log("Element doesnot exist in an array");
+} else {
+    console.log("Element exist in an array");
+}
