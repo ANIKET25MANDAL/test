@@ -35,3 +35,7 @@ if (chr[0] == chr[0].toLowerCase()) {
     console.log("characters are not in lower case");
 }
 
+
+// Qs5. Write a JavaScript program to strip leading and trailing spaces from a string.
+let str1 = "    I went to libaray every day   ";
+console.log(str1.trim());
