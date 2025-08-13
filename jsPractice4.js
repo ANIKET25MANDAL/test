@@ -58,3 +58,15 @@ if (f == 0) {
 }
 
 console.log(`Factorial of ${f} is ${factorial}`);
+
+
+// Qs5. Find the largest number in an array with only positive numbers.
+
+let array = [23, 98, 67, 859, -90, 23];
+let largest = array[0];
+for (let i = 1; i < array.length; i++) {
+    if (array[i] > largest) {
+        largest = array[i];
+    }
+}
+console.log(`Largest number in an array = ${largest}`);
