@@ -9,3 +9,16 @@ for (let i = 0; i < num.length; i++) {
     }
 }
 console.log(num);
+
+
+/*Qs2 .Write a JS program to find the no of digits in a number.
+ Example: if number=287152, count=6    */
+
+let number = 287152;
+let count = 0;
+let copy = number;
+while (copy > 0) {
+    copy = Math.floor(copy / 10);
+    count++;
+}
+console.log(`Number of digits present in ${number} = ${count}`);
