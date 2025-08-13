@@ -22,3 +22,17 @@ while (copy > 0) {
     count++;
 }
 console.log(`Number of digits present in ${number} = ${count}`);
+
+
+/* Qs3. Write a JS program to find the sum of digits in a number.
+ Example: if number=287152, sum=25 */
+
+let n = 287152;
+let sum = 0;
+let last_digt = 0;
+while (n > 0) {
+    last_digt = n % 10;
+    n = Math.floor(n / 10);
+    sum = sum + last_digt;
+}
+console.log(sum);
