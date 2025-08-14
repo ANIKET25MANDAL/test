@@ -13,10 +13,11 @@ while (true) {
         console.log("your are right! congrats!", random);
         break;
     } else if (guess < random) {
-        guess = prompt("hint: your guess waas too small. please try agin");
+        guess = prompt("hint: your guess was too small. please try agin");
     } else if (guess > random) {
         guess = prompt("hint: your guess was too big please try agian");
     } else {
         guess = prompt("your guess was wrong. Please try again");
     }
 }
+
