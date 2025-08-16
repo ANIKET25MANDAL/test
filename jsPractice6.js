@@ -28,3 +28,22 @@ function getUnique(str) {
 }
 let str = "abcdabcdefgggh";
 console.log(getUnique(str));
+
+
+
+/*Qs3. Write a JavaScript function that accepts a list of country names as input and returns the longest country name as output.
+Example: country=["Australia","Germany","United States of America"]
+output: "United States of America"     */
+
+function longestCountry(country) {
+    let longest = country[0];
+    for (let i = 1; i < country.length; i++) {
+        if (longest.length < country[i].length) {
+            longest = country[i];
+        }
+    }
+    return longest;
+}
+let country = ["Australia", "Germany", "United States of America"];
+
+console.log(longestCountry(country));
