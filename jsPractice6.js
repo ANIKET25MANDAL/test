@@ -64,3 +64,13 @@ function countVowels(name) {
 }
 let s = "count number of vowels";
 console.log(`Number of vowels present= ${countVowels(s)}`);
+
+
+// Qs5. Write a JavaScript function to generate a random number within a range(start,end).
+
+function generateNumber(start, end) {
+    let diff = end - start;
+    let num = Math.floor(Math.random() * diff) + start;
+    return num;
+}
+console.log(generateNumber(3, 53));
