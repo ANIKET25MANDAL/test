@@ -14,5 +14,30 @@ console.log(arrayAverage(arr));
 
 // Qs2. Write an arrow function named isEven() that takes a single number as argument and returns if it is even or not.
 
-const isEven=(n)=> n%2==0;
+const isEven = (n) => n % 2 == 0;
 console.log(isEven(661));
+
+
+//Question 3
+const object={
+    message:'Hello, World!',
+   
+    logMessage(){
+        console.log(this.message);
+    }
+};
+setTimeout(object.logMessage,1000);
+
+
+//Question 4
+ let length=4;
+ function callback(){
+    console.log(this.length);
+ }
+const object1={
+  length:5,
+  method(callback){
+    callback();
+  },
+};
+object1.method(callback,1,2);
