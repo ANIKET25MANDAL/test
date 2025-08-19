@@ -20,3 +20,10 @@ let an = a.map((e) => {
     return e + 5;
 })
 console.log(an);
+
+// Qs3. Create a new array whose elements are in uppercase of words present in the original array.
+let s = ["Aniket", "Monu", "Gita", "Radha", "shyam"]
+let upeer = s.map((s) => {
+    return s.toUpperCase();
+})
+console.log(upeer);
