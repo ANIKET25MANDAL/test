@@ -30,10 +30,10 @@ console.log(upeer);
 
 // Qs4. Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments. The function should return a new array with the original array values and all of the additional arguments doubled.
 
-function doubleAndReturnArgs(arr,...args){
-  let doubleArgs=args.map(e=>e*2);
-  return [...arr, ...doubleArgs]; 
+function doubleAndReturnArgs(arr, ...args) {
+    let doubleArgs = args.map(e => e * 2);
+    return [...arr, ...doubleArgs];
 }
-let ab=[1,2,34,56,23,45,67];
-console.log(doubleAndReturnArgs(ab,10,20,30));
+let ab = [1, 2, 34, 56, 23, 45, 67];
+console.log(doubleAndReturnArgs(ab, 10, 20, 30));
 
