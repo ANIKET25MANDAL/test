@@ -37,3 +37,27 @@ function doubleAndReturnArgs(arr, ...args) {
 let ab = [1, 2, 34, 56, 23, 45, 67];
 console.log(doubleAndReturnArgs(ab, 10, 20, 30));
 
+
+// Qs5. Write a function called mergeObjects that accepts two objects and returns a new object which contains all the keys and values of the first object and second object.
+
+function mergeObjects(obj1, obj2) {
+
+
+    return {
+        student1: { ...obj1 },
+        student2: { ...obj2 }
+    };
+}
+let student1 = {
+    name: "Aman",
+    rollno: '0131CL211005',
+    branch: 'AIML',
+    college: 'JNCT'
+};
+let student2 = {
+    name: "Abhimanyu",
+    rollno: '0131CL211007',
+    branch: 'CSE',
+    college: 'JNCT'
+};
+console.log(mergeObjects(student1, student2));
