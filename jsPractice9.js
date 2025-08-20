@@ -5,3 +5,11 @@ btn.innerText = "Click me";
 
 document.querySelector('body').append(input);
 document.querySelector('body').append(btn);
+
+/*
+Qs2. Add following attributes to the element:
+- Change placeholder value of input to “username” 
+- Change the id of button to “btn”
+*/
+input.setAttribute('placeholder', 'username');
+btn.setAttribute('id', 'btn');
