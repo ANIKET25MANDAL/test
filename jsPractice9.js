@@ -13,3 +13,12 @@ Qs2. Add following attributes to the element:
 */
 input.setAttribute('placeholder', 'username');
 btn.setAttribute('id', 'btn');
+
+
+// Qs3. Access the btn using the querySelector and button id. Change the button background color to blue and text color to white.
+
+let button = document.querySelector('#btn');
+button.style.backgroundColor = 'blue';
+button.style.color = 'white';
+
+
